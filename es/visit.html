@@ -10,6 +10,37 @@
 <link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/visit.html">
 <link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/visit.html">
 <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+<style>
+  .flatpickr-calendar{font-family:var(--body); box-shadow:0 12px 28px rgba(32,38,29,.15); border-radius:var(--radius);}
+  .flatpickr-day.selected, .flatpickr-day.selected:hover{background:var(--forest); border-color:var(--forest);}
+  .flatpickr-day.today{border-color:var(--gold);}
+  .flatpickr-months .flatpickr-month, .flatpickr-current-month .flatpickr-monthDropdown-months{color:var(--forest);}
+  .flatpickr-weekday{color:var(--bark);}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof flatpickr === 'undefined') return;
+  var schoolHolidays = [
+    "2026-09-11", "2026-10-12",
+    { from: "2026-10-26", to: "2026-10-31" },
+    { from: "2026-12-23", to: "2027-01-07" },
+    { from: "2027-02-22", to: "2027-02-27" },
+    { from: "2027-03-29", to: "2027-04-09" },
+    { from: "2027-04-26", to: "2027-04-30" }
+  ];
+  flatpickr("#dates", {
+    dateFormat: "Y-m-d",
+    minDate: "today",
+    maxDate: "2027-06-25",
+    disable: [
+      function(date) { return (date.getDay() === 0 || date.getDay() === 6); }
+    ].concat(schoolHolidays),
+    disableMobile: true
+  });
+});
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -79,8 +110,9 @@
         </div>
         <div class="form-row">
           <div class="form-field"><label for="cage">Edad del hijo/a</label><input id="cage" name="child_age" type="text" required></div>
-          <div class="form-field"><label for="dates">Fechas de visita preferidas</label><input id="dates" name="preferred_dates" type="text"></div>
+          <div class="form-field"><label for="dates">Fecha de visita preferida</label><input id="dates" name="preferred_dates" type="text" placeholder="Selecciona una fecha..." autocomplete="off" required></div>
         </div>
+        <p class="form-note" style="margin-top:-1rem;">Disponible solo de lunes a viernes. Los periodos de vacaciones escolares no se pueden seleccionar.</p>
         <div class="form-field"><label for="vmessage">¿Algo más que debamos saber?</label><textarea id="vmessage" name="message"></textarea></div>
         <button class="btn btn-primary" type="submit">Solicita una visita</button>
       </form>
