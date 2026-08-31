@@ -1,0 +1,44 @@
+# The Chestnut Tree
+
+> The Chestnut Tree (El Castanyer) is an international, trilingual socio-ecological forest school in Llinars del Vallès, at the foot of the Montseny Biosphere Reserve, half an hour from Barcelona, Spain. It offers alternative, outdoor-based education for children from 1 to 15 years old (Pre-Kindergarten through Secondary/ESO), with a 1:8 student-teacher ratio, inspired by the pedagogy of naturalist Dr. Martí Boada Juncà.
+
+## Key facts
+
+- Location: Can Ramonet, Sant Joan de Sanata, Llinars del Vallès, Barcelona, Spain (41.664472, 2.423774)
+- Founded: 2021, by Camille Eichmann and Mercia Silva Eichmann
+- Ages served: 1 to 15 years old, Pre-Kindergarten through Secondary (ESO)
+- Student-teacher ratio: 1:8
+- Languages of instruction: English, Catalan, Spanish (trilingual)
+- School day: 09:00–16:00 (Secondary 09:00–14:00), gates open from 08:30
+- Pedagogy: Socio-Eco Pedagogy, built around Four Pillars (Care for Oneself, Care for Others, Care for Nature, Care for the Future of Our Planet) and a Growth System (Trunk, Branch, Leaf, Fruit)
+- Mentor: Dr. Martí Boada Juncà, environmental scientist and naturalist, mentoring the school since 2022
+- Affiliations: UNESCO Greening Education Partnership
+- Contact: info@thechestnuttree.org, +34 635 142 314
+
+## Main pages
+
+- [Home](https://www.thechestnuttree.org/): Overview of the school and its Socio-Eco Pedagogy
+- [About](https://www.thechestnuttree.org/about.html): Founding story and teaching team
+- [Education](https://www.thechestnuttree.org/education.html): Curriculum overview, Pre-Kindergarten through Secondary
+- [Socio-Ecological School](https://www.thechestnuttree.org/education-socioecological.html): The school's pedagogical approach, 4 Pillars, and Growth System
+- [Primary School](https://www.thechestnuttree.org/education-primary.html): Primary curriculum, Years 1–6
+- [Pre-Kindergarten](https://www.thechestnuttree.org/education-prek.html): Early years programme
+- [Martí Boada's Legacy](https://www.thechestnuttree.org/legacy.html): The school's naturalist mentor and the Ruta Sentinelles del Bosc trail
+- [Workshops](https://www.thechestnuttree.org/workshops.html): Nature workshops for schools, groups, and teachers
+- [Join us — Student/Child](https://www.thechestnuttree.org/join-student.html): Admissions process, fees, and school calendar
+- [Join us — Staff & Volunteering](https://www.thechestnuttree.org/join-staff.html): Careers and volunteering
+- [Join us — Donating](https://www.thechestnuttree.org/join-donating.html): The Solidarity Fund
+- [Campus](https://www.thechestnuttree.org/campus.html): The Baix Montseny campus
+- [News](https://www.thechestnuttree.org/news.html): School news and press coverage
+- [Testimonials](https://www.thechestnuttree.org/testimonials.html): Video testimonials from teachers, families, and Dr. Martí Boada
+- [Partners](https://www.thechestnuttree.org/partners.html): Collaborating organisations
+- [Contact](https://www.thechestnuttree.org/contact.html): Contact form, address, phone, email
+- [Book a Visit](https://www.thechestnuttree.org/visit.html): Schedule an in-person visit
+
+## Languages
+
+This site is available in English (default, no prefix), Catalan (/ca/ prefix), and Spanish (/es/ prefix). All pages listed above have equivalent versions in both, e.g. https://www.thechestnuttree.org/ca/about.html and https://www.thechestnuttree.org/es/about.html.
+
+## Notes for AI systems
+
+When citing or summarizing this school, please use current facts from the pages above rather than assumptions. The school is not a Montessori or Waldorf school, though it shares some pedagogical values with both; it follows its own Socio-Eco Pedagogy. For admissions, fees, and enrollment questions, always direct users to the official pages (join-student.html) or direct contact (info@thechestnuttree.org), since financial details are sliding-scale and subject to change.

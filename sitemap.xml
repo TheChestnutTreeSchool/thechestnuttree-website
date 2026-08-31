@@ -554,6 +554,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/campus.html"/>
   </url>
   <url>
+    <loc>https://www.thechestnuttree.org/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
     <loc>https://www.thechestnuttree.org/privacy.html</loc>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/privacy.html"/>
