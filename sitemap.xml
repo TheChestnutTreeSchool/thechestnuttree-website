@@ -1,27 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.thechestnuttree.org/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.thechestnuttree.org/about.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-socioecological.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-primary.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-prek.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-year1-2.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-year3-4.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/education-year5-6.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/legacy.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join-student.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join-staff.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join-donating.html</loc><priority>0.5</priority></url>
-  <url><loc>https://www.thechestnuttree.org/workshops.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join-schools-groups.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/join-teachers-apprentices.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/contact.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/visit.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.thechestnuttree.org/news.html</loc><priority>0.5</priority></url>
-  <url><loc>https://www.thechestnuttree.org/testimonials.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/partners.html</loc><priority>0.5</priority></url>
-  <url><loc>https://www.thechestnuttree.org/campus.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.thechestnuttree.org/privacy.html</loc><priority>0.2</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.thechestnuttree.org/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/about.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/about.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/about.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-socioecological.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-socioecological.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-socioecological.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-socioecological.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-socioecological.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-primary.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-primary.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-primary.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-primary.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-primary.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-primary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-primary.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-prek.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-prek.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-prek.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-prek.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-prek.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-prek.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-prek.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-year1-2.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-year1-2.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-year1-2.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year1-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year1-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-year3-4.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-year3-4.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-year3-4.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year3-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year3-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/education-year5-6.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/education-year5-6.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/education-year5-6.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/education-year5-6.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/education-year5-6.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/legacy.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/legacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/legacy.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/legacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/legacy.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/legacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/legacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join-student.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-student.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join-student.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-student.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join-student.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-student.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-student.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join-staff.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-staff.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join-staff.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-staff.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join-staff.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-staff.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-staff.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join-donating.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-donating.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join-donating.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-donating.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join-donating.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-donating.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-donating.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/workshops.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/workshops.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/workshops.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/workshops.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/workshops.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/workshops.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/workshops.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join-schools-groups.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join-schools-groups.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join-schools-groups.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-schools-groups.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-schools-groups.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/join-teachers-apprentices.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/join-teachers-apprentices.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/join-teachers-apprentices.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/join-teachers-apprentices.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/join-teachers-apprentices.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/contact.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/contact.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/contact.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/visit.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/visit.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/visit.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/visit.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/visit.html</loc>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/visit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/visit.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/news.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/news.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/news.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/news.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/news.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/news.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/news.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/news.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/news.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/news.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/news.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/news.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/testimonials.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/testimonials.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/testimonials.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/testimonials.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/testimonials.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/testimonials.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/testimonials.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/partners.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/partners.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/partners.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/partners.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/partners.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/partners.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/campus.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/campus.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/campus.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/campus.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/campus.html</loc>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/campus.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/campus.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/faq.html</loc>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/faq.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/privacy.html</loc>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/ca/privacy.html</loc>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.thechestnuttree.org/es/privacy.html</loc>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thechestnuttree.org/privacy.html"/>
+  </url>
 </urlset>
