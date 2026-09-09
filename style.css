@@ -89,11 +89,11 @@ a:focus-visible, button:focus-visible{
   border-bottom:1px solid var(--parchment-2);
 }
 .nav{
-  display:flex; align-items:flex-end; justify-content:space-between;
-  padding:1rem 0; position:relative;
+  display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between;
+  row-gap:.35rem; padding:.65rem 0 1rem; position:relative;
 }
 .brand{
-  display:flex; align-items:flex-end;
+  display:flex; align-items:flex-end; flex:none;
   text-decoration:none; color:var(--forest);
 }
 .brand svg{width:30px;height:30px;flex:none;}
@@ -115,7 +115,19 @@ a:focus-visible, button:focus-visible{
 }
 .nav-cta:hover{background:var(--forest); color:var(--paper) !important;}
 
-.lang-switch--top{margin-left:1.5rem;}
+/* Utility row: the staff portal link and the language switch sit on a thin
+   line of their own above the main nav, so the link row keeps its full width
+   in every language. The ::after is a zero-height, full-width flex item that
+   pushes the brand, links and CTA onto the following line. */
+.nav-utility{
+  order:-2; margin-left:auto;
+  font-family:var(--mono); font-size:.72rem; color:var(--bark);
+  text-decoration:none; white-space:nowrap;
+  padding:.15rem .4rem; border-radius:3px;
+}
+.nav-utility:hover{background:var(--forest); color:var(--paper);}
+.lang-switch--top{order:-2; margin-left:1rem;}
+.nav::after{content:""; order:-1; flex-basis:100%; height:0;}
 
 /* ---- per-item dropdown toggle (Education / Join us subpages) ---- */
 .has-dropdown{position:relative; gap:.15rem;}
@@ -153,9 +165,12 @@ a:focus-visible, button:focus-visible{
 
 @media (max-width:880px){
   .brand img{height:42px;}
-  .nav{flex-wrap:wrap; position:relative;}
+  .nav{flex-wrap:wrap; row-gap:0; padding:1rem 0; position:relative;}
+  /* no utility row on mobile: everything folds into the burger panel */
+  .nav::after{display:none;}
+  .nav-utility, .lang-switch--top{order:0; margin-left:0;}
   .nav-toggle-label{display:flex;}
-  .nav-links, .nav-cta, .lang-switch--top{display:none;}
+  .nav-links, .nav-cta, .lang-switch--top, .nav-utility{display:none;}
 
   .nav-toggle-checkbox:checked ~ .nav-links{
     display:flex; flex-direction:column; align-items:stretch; gap:0;
@@ -174,6 +189,11 @@ a:focus-visible, button:focus-visible{
   }
   .nav-toggle-checkbox:checked ~ .lang-switch--top{
     display:flex; justify-content:center; margin:0 0 1rem;
+  }
+  .nav-toggle-checkbox:checked ~ .nav-utility{
+    display:block; order:2; flex-basis:100%;
+    text-align:center; margin:0 1.5rem 1rem; padding:.75rem;
+    border:1px solid var(--parchment-2); border-radius:var(--radius);
   }
 
   /* subpage dropdowns become inline accordions inside the mobile panel */
