@@ -134,7 +134,9 @@ document.addEventListener('DOMContentLoaded', function() {
   </section>
   <section class="section">
     <div class="wrap" style="max-width:640px;">
-      <form action="https://formspree.io/f/xqpkzjza" method="POST">
+      <form action="https://formspree.io/f/xqpkzjza" method="POST"
+            data-sending="Enviando…"
+            data-error="No se ha podido enviar. Inténtalo de nuevo o escríbenos a info@thechestnuttree.org.">
       <!-- Land on our own page rather than Formspree's, which is shown in whatever language the visitor's browser asks for. -->
       <input type="hidden" name="_next" value="https://www.thechestnuttree.org/es/thanks">
       <input type="hidden" name="_subject" value="Visit request (ES)">
@@ -163,5 +165,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="wrap footer-bottom"><span>© <span id="year"></span> The Chestnut Tree, El Castanyer, Llinars del Vallès, Barcelona, España</span><span><a href="faq" style="opacity:.75;">Preguntas frecuentes</a> · <a href="privacy" style="opacity:.75;">Política de privacidad</a> · Contenido disponible en EN · CA · ES</span></div>
 </footer>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="/form.js" defer></script>
 </body>
 </html>
