@@ -437,3 +437,10 @@ a:focus-visible, button:focus-visible{
   html{scroll-behavior:auto;}
   *{transition:none !important;}
 }
+
+/* shown when Formspree turns a submission away */
+.form-error{
+  margin:0 0 1rem; padding:.8em 1em; border-radius:var(--radius);
+  background:#F6E5E0; border-left:3px solid #B04A32; color:#8A3A27;
+  font-size:.95rem;
+}

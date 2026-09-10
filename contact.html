@@ -102,7 +102,9 @@
   </section>
   <section class="section">
     <div class="wrap grid grid-2" style="align-items:flex-start;">
-      <form action="https://formspree.io/f/xqpkzjza" method="POST">
+      <form action="https://formspree.io/f/xqpkzjza" method="POST"
+            data-sending="Sending…"
+            data-error="That didn't send. Please try again, or email us at info@thechestnuttree.org.">
       <!-- Land on our own page rather than Formspree's, which is shown in whatever language the visitor's browser asks for. -->
       <input type="hidden" name="_next" value="https://www.thechestnuttree.org/thanks">
       <input type="hidden" name="_subject" value="Contact form (EN)">
@@ -138,5 +140,6 @@
   <div class="wrap footer-bottom"><span>© <span id="year"></span> The Chestnut Tree, El Castanyer, Llinars del Vallès, Barcelona, Spain</span><span><a href="faq" style="opacity:.75;">FAQ</a> · <a href="privacy" style="opacity:.75;">Privacy Policy</a> · Site content available in EN · CA · ES</span></div>
 </footer>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="/form.js" defer></script>
 </body>
 </html>
