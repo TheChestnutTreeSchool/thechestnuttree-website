@@ -103,6 +103,9 @@
   <section class="section">
     <div class="wrap grid grid-2" style="align-items:flex-start;">
       <form action="https://formspree.io/f/xqpkzjza" method="POST">
+      <!-- Land on our own page rather than Formspree's, which is shown in whatever language the visitor's browser asks for. -->
+      <input type="hidden" name="_next" value="https://www.thechestnuttree.org/thanks">
+      <input type="hidden" name="_subject" value="Contact form (EN)">
         <div class="form-row">
           <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
           <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
