@@ -135,6 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
   <section class="section">
     <div class="wrap" style="max-width:640px;">
       <form action="https://formspree.io/f/xqpkzjza" method="POST">
+      <!-- Land on our own page rather than Formspree's, which is shown in whatever language the visitor's browser asks for. -->
+      <input type="hidden" name="_next" value="https://www.thechestnuttree.org/es/thanks">
+      <input type="hidden" name="_subject" value="Visit request (ES)">
         <div class="form-row">
           <div class="form-field"><label for="pname">Nombre del padre/madre o tutor</label><input id="pname" name="parent_name" type="text" required></div>
           <div class="form-field"><label for="pemail">Correo</label><input id="pemail" name="email" type="email" required></div>

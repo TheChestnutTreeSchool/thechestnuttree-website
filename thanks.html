@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book a Visit | The Chestnut Tree</title>
-<meta name="description" content="Book a visit or Open Doors morning at The Chestnut Tree forest school in Llinars del Vallès.">
-<link rel="canonical" href="https://www.thechestnuttree.org/visit">
-<link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/visit">
-<link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/visit">
-<link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/visit">
+<title>Thank you | The Chestnut Tree</title>
+<meta name="description" content="Your message has reached The Chestnut Tree. We answer within two school days.">
+<link rel="canonical" href="https://www.thechestnuttree.org/thanks">
+<link rel="alternate" hreflang="en" href="https://www.thechestnuttree.org/thanks">
+<link rel="alternate" hreflang="ca" href="https://www.thechestnuttree.org/ca/thanks">
+<link rel="alternate" hreflang="es" href="https://www.thechestnuttree.org/es/thanks">
 <link rel="icon" type="image/png" href="assets/logo-chestnuttreetreeonly.png">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
@@ -40,38 +40,8 @@
 }
 </script>
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f30126eb3cb249f4890caea55ac47111"}'></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
-<style>
-  .flatpickr-calendar{font-family:var(--body); box-shadow:0 12px 28px rgba(32,38,29,.15); border-radius:var(--radius);}
-  .flatpickr-day.selected, .flatpickr-day.selected:hover{background:var(--forest); border-color:var(--forest);}
-  .flatpickr-day.today{border-color:var(--gold);}
-  .flatpickr-months .flatpickr-month, .flatpickr-current-month .flatpickr-monthDropdown-months{color:var(--forest);}
-  .flatpickr-weekday{color:var(--bark);}
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  if (typeof flatpickr === 'undefined') return;
-  var schoolHolidays = [
-    "2026-09-11", "2026-10-12",
-    { from: "2026-10-26", to: "2026-10-31" },
-    { from: "2026-12-23", to: "2027-01-07" },
-    { from: "2027-02-22", to: "2027-02-27" },
-    { from: "2027-03-29", to: "2027-04-09" },
-    { from: "2027-04-26", to: "2027-04-30" }
-  ];
-  flatpickr("#dates", {
-    dateFormat: "Y-m-d",
-    minDate: "today",
-    maxDate: "2027-06-25",
-    disable: [
-      function(date) { return (date.getDay() === 0 || date.getDay() === 6); }
-    ].concat(schoolHolidays),
-    disableMobile: true
-  });
-});
-</script>
-</head>
+<meta name="robots" content="noindex, follow">
+</head></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
@@ -102,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <li><a href="legacy">Martí Boada Legacy</a></li>
       <li><a href="workshops">Workshops</a></li>
       <li class="has-dropdown">
-        <a href="join" aria-current="page">Join us</a>
+        <a href="join">Join us</a>
         <input type="checkbox" id="join-toggle" class="dropdown-checkbox">
         <label for="join-toggle" class="dropdown-caret" aria-label="Show Join us subpages"><svg viewBox="0 0 12 8" width="10" height="7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5"/></svg></label>
         <ul class="dropdown">
@@ -111,10 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
           <li><a href="join-donating">Donating</a></li>
         </ul>
       </li>
-      <li><a href="contact">Contact</a></li>
+      <li><a href="contact" aria-current="page">Contact</a></li>
     </ul>
     <a class="nav-utility" href="https://stundenplan.thechestnuttree.org" target="_blank" rel="noopener">Login</a>
-    <span class="lang-switch lang-switch--top" aria-label="Language"><a href="visit" aria-current="true">EN</a><a href="ca/visit">CA</a><a href="es/visit">ES</a></span>
+    <span class="lang-switch lang-switch--top" aria-label="Language"><a href="contact" aria-current="true">EN</a><a href="ca/contact">CA</a><a href="es/contact">ES</a></span>
     <a class="nav-cta" href="visit">Book a Visit</a>
     <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
       <svg class="icon-burger" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -125,33 +95,17 @@ document.addEventListener('DOMContentLoaded', function() {
 <main id="main">
   <section class="page-hero">
     <div class="wrap">
-      <p class="breadcrumb"><a href="./">Home</a> / Book a Visit</p>
-      <p class="eyebrow">Portes Obertes</p>
-      <h1>See a real morning at school before you decide.</h1>
-      <p style="max-width:62ch;font-size:1.1rem;">Tell us about your child and a preferred date — we'll confirm a visit slot within 2 working days.</p>
+      <p class="breadcrumb"><a href="./">Home</a> / Thank you</p>
+      <p class="eyebrow">Message sent</p>
+      <h1>Thank you, your message is on its way.</h1>
+      <p class="lede">It has reached the school office. We answer within two school days, and during holidays it may take a little longer.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="./">Back to the home page</a>
+        <a class="btn btn-outline" href="contact">Contact us another way</a>
+        <a class="btn btn-outline" href="visit">Plan a visit</a>
+      </div>
     </div>
   </section>
-  <section class="section">
-    <div class="wrap" style="max-width:640px;">
-      <form action="https://formspree.io/f/xqpkzjza" method="POST">
-      <!-- Land on our own page rather than Formspree's, which is shown in whatever language the visitor's browser asks for. -->
-      <input type="hidden" name="_next" value="https://www.thechestnuttree.org/thanks">
-      <input type="hidden" name="_subject" value="Visit request (EN)">
-        <div class="form-row">
-          <div class="form-field"><label for="pname">Parent / Guardian Name</label><input id="pname" name="parent_name" type="text" required></div>
-          <div class="form-field"><label for="pemail">Email</label><input id="pemail" name="email" type="email" required></div>
-        </div>
-        <div class="form-row">
-          <div class="form-field"><label for="cage">Child's Age</label><input id="cage" name="child_age" type="text" required></div>
-          <div class="form-field"><label for="dates">Preferred Visit Date</label><input id="dates" name="preferred_dates" type="text" placeholder="Select a date..." autocomplete="off" required></div>
-        </div>
-        <p class="form-note" style="margin-top:-1rem;">Available Monday–Friday only. School holidays are not shown as selectable.</p>
-        <div class="form-field"><label for="vmessage">Anything else we should know?</label><textarea id="vmessage" name="message"></textarea></div>
-        <button class="btn btn-primary" type="submit">Request a visit</button>
-      </form>
-    </div>
-  </section>
-
 </main>
 <footer class="site-footer">
   <div class="wrap footer-grid">
